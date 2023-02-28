@@ -45,7 +45,6 @@ export class App extends Component {
     const { contacts } = this.state;
     const item = contacts.find(contact => contact.id === evt);
     const itemIndex = contacts.indexOf(item);
-    console.log(itemIndex);
 
     contacts.splice(itemIndex, 1);
 
